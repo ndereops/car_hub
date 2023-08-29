@@ -6,7 +6,7 @@ import { ShowMoreProps } from "@/types/index";
 import { updateSearchParams } from "@/utils/index";
 
 const ShowMore = ({ pageNumber, isNext,setLimit }: ShowMoreProps) => {
-  const router = useRouter();
+  
 
   const handleNavigation = () => {
     const newLimit = (pageNumber + 1) * 10;
